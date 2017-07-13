@@ -1,4 +1,6 @@
 {
+  "name": "vcity",
+  "displayName": "vcity",
   "expo": {
     "sdkVersion": "18.0.0"
   }
