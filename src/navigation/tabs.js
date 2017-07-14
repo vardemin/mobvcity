@@ -1,9 +1,4 @@
-**
- * Tabs Scenes
- *
- * React Native Starter App
- * https://github.com/mcnamee/react-native-starter-app
- */
+
 import React from 'react';
 import { Scene } from 'react-native-router-flux';
 
@@ -18,7 +13,6 @@ import { NavbarMenuButton } from '@containers/ui/NavbarMenuButton/NavbarMenuButt
 // Scenes
 import Placeholder from '@components/general/Placeholder';
 import Error from '@components/general/Error';
-import StyleGuide from '@containers/StyleGuideView';
 import Recipes from '@containers/recipes/Browse/BrowseContainer';
 import RecipeView from '@containers/recipes/RecipeView';
 
@@ -74,14 +68,6 @@ const scenes = (
       analyticsDesc={'Error: Example Error'}
     />
 
-    <Scene
-      key={'styleGuide'}
-      {...navbarPropsTabs}
-      title={'Style Guide'}
-      component={StyleGuide}
-      icon={props => TabIcon({ ...props, icon: 'speaker-notes' })}
-      analyticsDesc={'StyleGuide: Style Guide'}
-    />
   </Scene>
 );
 
