@@ -20,7 +20,21 @@
   },
   "dependencies": {
     "expo": "^18.0.3",
+    "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",
-    "react-native": "^0.45.1"
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-native": "^0.45.1",
+    "react-native-device-info": "^0.10.2",
+    "react-native-dotenv": "^0.1.0",
+    "react-native-elements": "^0.14.0",
+    "react-native-router-flux": "^4.0.0-beta.8",
+    "react-native-side-menu": "^0.20.3",
+    "react-native-tab-view": "0.0.67",
+    "react-native-vector-icons": "^4.2.0",
+    "react-redux": "^5.0.5",
+    "realm": "^1.10.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "tcomb-form-native": "^0.6.9"
   }
 }
