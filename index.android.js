@@ -5,5 +5,7 @@ import {
   AppRegistry,
 } from 'react-native';
 
-import Root from './src/index.js';
-AppRegistry.registerComponent('vcity', () => Root);
+
+
+import Root from './src';
+AppRegistry.registerComponent('mobvcity', () => Root);
